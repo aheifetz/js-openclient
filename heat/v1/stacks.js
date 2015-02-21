@@ -12,7 +12,7 @@ var StacksManager = base.Manager.extend({
         manager = this;
 
     if (params.success) delete params.success;
-    if (params.error) delete params.error;
+  //  if (params.error) delete params.error;
 
     params.raw_result = true;
 
